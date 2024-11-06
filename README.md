@@ -7,6 +7,6 @@ This project uses **Python** and **OpenCV** to create an "invisibility cloak" ef
 - Detects any object in front of the background (regardless of color) and applies the cloak effect
 
 ### How It Works
-**Background Capture**: Captures the background with no objects in the frame.
-**Difference Masking**: Detects any new object by comparing each frame with the captured background.
-**Cloak Effect**: Replaces the object in the frame with the background, making it appear invisible.
+- **Background Capture**: Captures the background with no objects in the frame.
+- **Difference Masking**: Detects any new object by comparing each frame with the captured background.
+- **Cloak Effect**: Replaces the object in the frame with the background, making it appear invisible.
